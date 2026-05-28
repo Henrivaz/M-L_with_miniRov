@@ -10,6 +10,30 @@ The user can control a virtual miniROV, define start and destination points, com
 
 ---
 
+## Simulator Interface Preview
+
+The image below shows the main interface of the MiniROV Mapper simulator.
+
+It contains the simulated tank environment on the left side, where the miniROV navigates, detects obstacles, builds a map, and follows planned routes. The right side contains the interactive HUD, which displays localization data, mapping information, real-time algorithm metrics, adjustable parameters, visualization options, a minimap, keyboard shortcuts, and controls for selecting Dijkstra or A*.
+
+The HUD allows the user to:
+
+- monitor the miniROV position and orientation;
+- observe the mapped area percentage;
+- compare Dijkstra and A*;
+- view time, cost, expanded nodes, and progress;
+- adjust manual speed, autonomous speed, and sensor range;
+- enable or disable sensors, real environment, noise, and map mode;
+- start, stop, and clear planned routes.
+
+This interface helps students understand how localization, mapping, sensing, and path planning are integrated in a robotic inspection system.
+
+### Simulator Screenshot
+
+![MiniROV Mapper Interface](images/minirov_mapper_interface.png)
+
+
+
 ## Main Features
 
 The simulator includes:
